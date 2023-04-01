@@ -78,7 +78,7 @@ const App = connect(
         }, []);
 
 
-        const [isRegister, setIsRegister] = useState(true);
+        const [isRegister, setIsRegister] = useState(false);
         const showRegister = () => {
             setIsRegister(!isRegister);
             
@@ -144,7 +144,7 @@ const App = connect(
                         content: "Kayıt Başarılı"
                     });
                     
-                    setIsRegister(false)
+                    setIsRegister(true)
                 }
             }
         }
@@ -158,10 +158,10 @@ const App = connect(
       </Button>
        <Modal
         cancelButtonProps={{ style: { display: 'none' } }} 
-        okText={isRegister ? "Kayıt Ol" : "Giriş Yap"}
-        title={isRegister ? "Kayıt Ol" : "Giriş Yap"} open={isModalOpen} onOk={isRegister ? handleRegisterFormSubmit : handleFormSubmit}
+        okText={!isRegister ? "Kayıt Ol" : "Giriş Yap"}
+        title={!isRegister ? "Kayıt Ol" : "Giriş Yap"} open={isModalOpen} onOk={!isRegister ? handleRegisterFormSubmit : handleFormSubmit}
         >
-        {!isRegister ? <Form
+        {isRegister ? <Form
             name="basic"
             labelCol={{
             span: 8,
