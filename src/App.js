@@ -78,7 +78,7 @@ const App = connect(
         }, []);
 
 
-        const [isRegister, setIsRegister] = useState(false);
+        const [isRegister, setIsRegister] = useState(true);
         const showRegister = () => {
             setIsRegister(!isRegister);
             
