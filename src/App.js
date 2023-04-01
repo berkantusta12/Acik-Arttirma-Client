@@ -307,7 +307,7 @@ const App = connect(
                         <Toolbar>
                             <IconButton edge="start" className={classes.container} color="inherit" />
                             <Typography variant="h6" color="secondary" className={classes.title}>
-                                <a href="http://localhost:3000">Açık Arttırma</a>
+                                <a href="https://acik-arttirma-client.onrender.com/">Açık Arttırma</a>
                             </Typography>
                             <Button color="primary" variant="outlined"
                                 startIcon={<PenIcon />}
