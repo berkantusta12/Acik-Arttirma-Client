@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# KARTACA CASE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🛠  Technologies and tools
 
-## Available Scripts
+<p>
+<img src="https://img.shields.io/badge/React-282C34?logo=react&logoColor=61DAFB" alt="React logo" title="React" height="25" />
+<img src="https://img.shields.io/badge/Redux-282C34?logo=redux&logoColor=764ABC" alt="Redux logo" title="Redux" height="25" />
+<img src="https://img.shields.io/badge/Material--UI-282C34?logo=mui&logoColor=0081CB" alt="Mui logo" title="Mui" height="25" />
+<img src="https://img.shields.io/badge/Ant%20Design-282C34?logo=ant-design&logoColor=07a5f9" alt="Antd logo" title="Antd" height="25" />
+<img src="https://img.shields.io/badge/React%20Router-282C34?logo=react-router&logoColor=CA4245" alt="React router logo" title="Router" height="25" />
+<img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" />
+<img src="https://img.shields.io/badge/Node.js-282C34?logo=node.js&logoColor=43853D" alt="Node.js logo" title="Node.js" height="25" />
+<img src="https://img.shields.io/badge/Express.js-282C34?logo=express&logoColor=green" alt="Express logo" title="Express.js" height="25" />
+<img src="https://img.shields.io/badge/MongoDB-282C34?logo=Mongodb&logoColor=4EA94B" alt="Mongodb logo" title="Mongodb" height="25" />
+<img src="https://img.shields.io/badge/Websocket-282C34?logo=Socket.IO&logoColor=d8d8d8" alt="Socket.io logo" title="Socket.io" height="25" />
 
-In the project directory, you can run:
 
-### `npm start`
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Beginning
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone this repository on your local machine.
+<br>
+git clone https://github.com/berkantusta12/Acik-Arttirma-Client.git
 
-### `npm test`
+## Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use it after cloning the project:
+```
+cd Acik-Arttirma-Client
+code .
+open terminal
+Run the following commands in the project folder to install the project dependencies.
+npm install
+npm start
+These instructions will get a copy of the project up and 
+running on your local machine for development and testing purposes.
+```
 
-### `npm run build`
+## 📷 Project Image
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![clientresim](https://user-images.githubusercontent.com/108878204/229329544-0099e968-e0dc-4880-b70a-1841f08b58e0.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎥 Project video
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://user-images.githubusercontent.com/108878204/229329547-23ae80d0-07eb-4987-b6ba-aab68299457d.mp4
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
